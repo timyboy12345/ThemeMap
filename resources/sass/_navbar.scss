@@ -27,7 +27,7 @@
   @include gradient-bg();
 
   margin: 15px;
-  border-radius: 5px;
+  border-radius: $border-radius;
   box-shadow: 5px 5px 20px $gray-300;
 
   // Because flex properties aren't inherited, we need to redeclare these first

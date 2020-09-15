@@ -31,9 +31,9 @@ $grays: (
 ) !default;
 // fusv-enable
 
-$blue:    #50BD36 !default;
-$indigo:  #9C2EF0 !default;
-$purple:  #3A5E49 !default;
+$blue:    #355CFB !default;
+$indigo:  #247DE3 !default;
+$purple:  #7028FD !default;
 $pink:    #d63384 !default;
 $red:     #dc3545 !default;
 $orange:  #fd7e14 !default;
@@ -338,9 +338,9 @@ $container-padding-x: 1rem !default;
 $border-width:                1px !default;
 $border-color:                $gray-300 !default;
 
-$border-radius:               .25rem !default;
-$border-radius-sm:            .2rem !default;
-$border-radius-lg:            .3rem !default;
+$border-radius:               0.8rem !default;
+$border-radius-sm:            $border-radius / 2 !default;
+$border-radius-lg:            $border-radius * 1.5 !default;
 
 $rounded-pill:                50rem !default;
 
